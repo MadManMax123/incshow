@@ -21,8 +21,9 @@ export default function App() {
 
   return (
     <div className="container">
+      <div className="neon-bg"></div>
       <form className="login-form" onSubmit={handleLogin}>
-        <h2>Innovation Club Login</h2>
+        <h1 className="neon-title">Innovation Club</h1>
         <input 
           type="text" 
           placeholder="Username" 
